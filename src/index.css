@@ -3,3 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (max-height: 670px) {
+  .hide-on-short {
+    display: none !important;
+  }
+}

@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="relative flex items-center justify-center">
         <DotGrid />
         <div className="absolute flex flex-col items-center justify-center">
-          <h2 className="md:text-3xl sm: text-xl dark:text-white mb-2">
+          <h2 className="md:text-3xl sm:text-2xl dark:text-white mb-2">
             {"<MinooshVejdani />"}
           </h2>
           <p className="text-base leading-8 md:text-lg text-gray-800 dark:text-gray-200 
@@ -16,7 +16,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 hide-on-short">
         <span className="inline-block animate-bounceTwice text-2xl text-gray-600 dark:text-gray-300">
           ↓
         </span>
