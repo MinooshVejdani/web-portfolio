@@ -1,6 +1,6 @@
 export default function Skills() {
     return (
-        <section className="pt-20 bg-white relative min-h-screen z-10">
+        <section className="pt-20 bg-white relative z-10">
             <h2 className="text-2xl font-bold text-center">My Skills</h2>
             <ul className="flex gap-4 justify-center mt-10">
                 <li>React</li>

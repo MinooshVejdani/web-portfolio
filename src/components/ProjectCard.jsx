@@ -4,7 +4,7 @@ export default function ProjectCard({ title, skills, imageUrl }) {
             <img src={imageUrl} alt={title} className="w-full h-48 object-cover" />
             <div className="p-4">
                 <h3 className="text-lg font-semibold">{title}</h3>
-                <p className="text-gray-600">{skills.join(", ")}</p>
+                <p className="text-gray-600">{skills}</p>
             </div>
         </section>
     );

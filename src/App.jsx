@@ -6,11 +6,9 @@ import Hero from './components/Hero.jsx'
 import About from './components/About.jsx'
 import DotGrid from './components/DotGrid.jsx'
 import Skills from './components/Skills.jsx'
+import Work from './components/Work.jsx'
+import ContactForm from './components/ContactForm.jsx'
 
-// import About from './components/About.jsx'
-
-// import Work from './components/Work.jsx'
-// import ContactForm from './components/ContactForm.jsx'
 // import ContactLink from './components/ContactLink.jsx'
 // import Footer from './components/Footer.jsx'
 
@@ -24,6 +22,8 @@ function App() {
     <Hero />
     <About />
     <Skills />
+    <Work />
+    <ContactForm />
     </div>
     </>
   );
