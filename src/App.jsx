@@ -11,12 +11,10 @@ import ContactForm from "./components/ContactForm.jsx";
 import ContactLink from "./components/ContactLink.jsx";
 import Footer from "./components/Footer.jsx";
 
-import MyVirtualPetGame from "./Pages/MyVirtualPetGame.jsx";
-import BudgetTracker from "./Pages/BudgetTracker.jsx";
 import Pave from "./Pages/Pave.jsx";
 import Dilemathon from "./Pages/Dilemathon.jsx";
 import Seed from "./pages/Seed/Seed.jsx";
-import TaskManagement from "./Pages/TaskManagement.jsx";
+
 
 function App() {
   return (
